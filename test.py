@@ -8,8 +8,8 @@ class BasicTest(unittest.TestCase):
     def test_add(self):
         """ Addition test"""
         calc = Diffps()
-        result = calc.add(1, 1)
-        self.assertEqual(2, result)
+        result = calc.add(2, 3)
+        self.assertEqual(5, result)
 
     def test_product(self):
         """ Product test"""
@@ -19,4 +19,3 @@ class BasicTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-    
